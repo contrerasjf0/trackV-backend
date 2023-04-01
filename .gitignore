@@ -130,7 +130,7 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
-
+.env.docker
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
@@ -234,4 +234,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Docker
+# Volumns
+db
 # End of https://www.toptal.com/developers/gitignore/api/node,windows,macos,linux,visualstudiocode
